@@ -58,7 +58,7 @@ body::before {
 	z-index: -1;
 }
 .form-control input:focus + label,
-form-control input:valid + label {
+.form-control input:valid + label {
 	color: darkcyan;
 	transform: translateY(-30px);
 	font-size: 14px;
