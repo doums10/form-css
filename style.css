@@ -42,6 +42,17 @@ body::before {
 	font-family: inherit;
 	padding: 15px 0;
 	outline: none;
-	transition:all 0.2s ease-in;
+	transition: all 0.2s ease-in;
 	background: transparent;
+}
+.form-control input:focus,
+.form-control input:valid {
+	border-bottom-color: darkcyan;
+}
+.form-control label{
+  position: absolute;
+  font-size: 18px;
+  top:15px;
+  left:0;
+  z-index: -1;
 }
